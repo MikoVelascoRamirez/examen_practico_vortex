@@ -2,16 +2,16 @@ import InputControl from './InputControl'
 
 export default function Form (){
   return (
-    <form action="">
-        <h1>Inicio de sesión</h1>
-        <InputControl field={"User"} type={"text"}></InputControl>
-        <InputControl field={"Password"} type={"password"}></InputControl>
-        <span>
-          <i className="bi bi-door open"></i>          
-          <input type="submit" value="Iniciar sesión" name="btn_Login"/>
-        </span>
-            
-            
+    <form action="" className="container d-flex flex-column mt-4 py-4 bg-secondary bg-opacity-25 rounded-4" id="form-login">
+        <h1 className='display-5 mb-2 text-light'>Inicio de sesión</h1>
+        <fieldset className="d-flex flex-column align-items-center py-4">
+          <InputControl field={"User"} type={"text"}></InputControl>
+          <InputControl field={"Password"} type={"password"}></InputControl>
+        </fieldset>
+        <div className='border-0 mx-auto'>
+            <i className="fa-solid fa-door-open text-light"></i>
+            <input type="submit" value="Iniciar sesión" name="btn_Login" className='py-2 bg-transparent border-0'/>
+        </div>
     </form>
   )
 }
