@@ -24,3 +24,14 @@ img{
 #list-container{
   height: 89%;
 }
+
+/* Custom media queries */
+@media (max-width: 575px) {
+  header{
+    flex-direction: column;
+  }
+
+  header #nav, header #form-search {
+    /* margin-block: 1px; */
+  }
+}
