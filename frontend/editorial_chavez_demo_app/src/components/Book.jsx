@@ -6,7 +6,7 @@ export default function Book({children, comments}){
         {
             !comments || <small className='position-absolute top-0 start-100 translate-middle badge bg-success rounded-circle p-2'>{comments}</small>
         }
-        <p>{children}</p>
+        <p className='text-center'>{children}</p>
     </div>
   )
 }
