@@ -2,9 +2,7 @@ import InputControl from './InputControl'
 
 export default function Form (){
   return (
-    <form action="" className="container d-flex flex-column mt-4 py-4 bg-secondary bg-opacity-25 rounded-4" id="form-login">
-        <h1 className='display-5 mb-2 text-light'>Inicio de sesión</h1>
-        <fieldset className="d-flex flex-column align-items-center py-4">
+    <form action="" className="container d-flex flex-column h-75 py-3 bg-secondary bg-opacity-25 rounded-4" id="form-login">
           <InputControl field={"User"} type={"text"}></InputControl>
           <InputControl field={"Password"} type={"password"}></InputControl>
         </fieldset>
