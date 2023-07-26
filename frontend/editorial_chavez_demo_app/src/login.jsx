@@ -8,8 +8,8 @@ export default function Login() {
       <div className="col-md-6 col-sm-12">
         <Form />
       </div>
-      <div className="col-6">
-        <img src={editorial} alt="editorial" className='container-fluid'/>
+      <div className="col-5 d-none d-sm-none d-md-block">
+        <img src={editorial} alt="editorial" className='w-100'/>
       </div>
     </section>
   )
