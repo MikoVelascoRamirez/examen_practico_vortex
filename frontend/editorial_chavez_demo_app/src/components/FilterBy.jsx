@@ -7,7 +7,7 @@ export default function FilterBy(){
         <option value="">Género</option>
         <option value="">Serie</option>
       </select>
-      <input type="submit" value="Buscar" name="inpt_Buscar"/>
+      <input type="submit" value="Buscar" name="inpt_Buscar" className="col-2"/>
     </form>
   )
 }
