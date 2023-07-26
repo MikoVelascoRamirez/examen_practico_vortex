@@ -2,13 +2,7 @@ import FilterBy from "./FilterBy";
 
 export default function HeaderCatalog(){
   return (
-    <header>
-      <nav>
-        <a href="">Género 1</a>
-        <a href="">Género 2</a>
-        <a href="">Género 3</a>
-        <a href="">Género 4</a>
-        <a href="">Género 5</a>
+    <header className="d-flex justify-content-between bg-white bg-opacity-25 py-3">
       </nav>
       <FilterBy />
     </header>
