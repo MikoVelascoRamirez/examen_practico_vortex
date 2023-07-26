@@ -1,6 +1,6 @@
 import HeaderCatalog from "./components/HeaderCatalog";
 import List from "./components/List"
-// import "./App.css";
+import "./App.css";
 
 export default function Catalog(){
   return (
