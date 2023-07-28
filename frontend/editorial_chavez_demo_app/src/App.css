@@ -1,6 +1,5 @@
 #root {
   margin: 0;
-  /* border: 1px solid #fff; */
 }
 
 body{
@@ -22,7 +21,11 @@ img{
 }
 
 #list-container{
-  height: 89%;
+  height: 90vh;
+}
+
+.nav-custom-height{
+  height: 8vh;
 }
 
 /* Custom media queries */
