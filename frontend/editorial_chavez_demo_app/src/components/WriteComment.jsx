@@ -1,4 +1,4 @@
-export default function WriteComment(){
+const WriteComment = () => {
   return (
     <section>
         <label htmlFor="comment">Escribe tu comentario:</label>
@@ -9,3 +9,5 @@ export default function WriteComment(){
     </section>
   )
 }
+
+export default WriteComment;
