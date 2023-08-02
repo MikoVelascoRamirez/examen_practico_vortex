@@ -72,4 +72,8 @@ textarea{
   } 
 }
 
+@media (max-width: 990px) {
+  .comment-section button{
+    width: 50%;
+  }
 }
