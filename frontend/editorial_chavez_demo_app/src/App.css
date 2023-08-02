@@ -62,4 +62,9 @@ textarea{
     height: 50%;
   }
 
+  .comment-section{
+    flex-direction: column;
+    height: 25%;
+  }
+
 }
