@@ -28,6 +28,14 @@ img{
   height: 8vh;
 }
 
+.main-section{
+  height: 70%;
+}
+
+.main-section  > *{
+  height: 100%;
+}
+
 /* Custom media queries */
 @media (max-width: 575px) {
   header{
