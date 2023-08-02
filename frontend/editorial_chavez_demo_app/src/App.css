@@ -53,4 +53,13 @@ textarea{
   .book{
     width: 200px;
   }
+
+  .main-section > div:first-child{
+    height: 50%;
+  }
+
+  .main-section > div:last-child{
+    height: 50%;
+  }
+
 }
