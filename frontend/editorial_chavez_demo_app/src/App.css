@@ -67,4 +67,9 @@ textarea{
     height: 25%;
   }
 
+  #card .card-body section {
+    flex-direction: column;
+  } 
+}
+
 }
