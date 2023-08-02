@@ -1,11 +1,8 @@
 const WriteComment = () => {
   return (
-    <div className="col">
-        <label htmlFor="comment">Escribe tu comentario:</label>
-        <textarea name="comment" cols="40" rows="5">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo maxime atque amet ipsum illum! Ab optio tempora omnis recusandae porro ullam assumenda quis officia veritatis, nisi rerum obcaecati nihil.
-        </textarea>
-        <button>Comentar</button>
+    <div className="w-75 mx-auto comment-section d-flex flex-sm-column flex-lg-row align-items-center justify-content-around">
+        <textarea name="comment" className="col-9 form-controi h-50 ps-2" placeholder="Escribe tu comentario"></textarea>
+        <button className="col-2 bg-success">Comentar</button>
     </div>
   )
 }
