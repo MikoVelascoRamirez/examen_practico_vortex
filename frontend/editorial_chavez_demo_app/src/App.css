@@ -40,6 +40,10 @@ img{
   height: 25%;
 }
 
+textarea{
+  resize: none;
+}
+
 /* Custom media queries */
 @media (max-width: 575px) {
   header{
