@@ -2,10 +2,12 @@ import Caratula from "./components/Caratula"
 import CommentsPanel from "./components/CommentsPanel"
 import WriteComment from "./components/WriteComment"
 
+import "./App.css";
+
 export default function BookComments(){
   return (
-    <section className="w-100 vh-100">
-      <div className="row">
+    <section className="container-fluid h-100 d-flex flex-column justify-content-between">
+      <div className="row main-section">
         <Caratula/>
         <CommentsPanel/>
       </div>
